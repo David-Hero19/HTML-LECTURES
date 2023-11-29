@@ -1,0 +1,54 @@
+div{
+    border: 15px;
+    background-color: #add8e6;
+}
+
+/* 
+selector:pusedo-class {
+    property:value
+}
+*/
+div:hover{
+    background-color: black;
+    color: white;
+}
+.speed-type{
+    color: blue;
+}
+.speed-type:hover{
+    color: burlywood;
+}
+.link{
+    text-decoration: none;
+    color: springgreen;
+}
+::marker{
+    color: red;
+}
+.link::selection{
+    background-color:yellow;
+}
+/* 
+selector::pusedo-element {
+    property:value
+}
+*/
+#lorem{
+    width: 60%;
+}
+/* #lorem::first-letter{
+    color: brown;
+    font-size: 50px;    
+} */
+
+#lorem::first-line{
+    background-color: #33363d;
+}
+#lorem::before{
+    content: 'Read-this';
+    background-color: red;
+}
+#lorem::after{
+    content: 'Read-this';
+    background-color: red;
+}

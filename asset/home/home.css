@@ -1,0 +1,140 @@
+.link:link{
+    text-decoration: none;
+    font-size: 20px;
+}
+a:visited{
+    color: lightsalmon;
+}
+a:hover{
+    background-color: color-mix(in oklab, chocolate 20%, red 89%);
+}
+p:first-child{
+    font-family: cursive;
+    color: #00f3;
+    font-size: large;
+    font-weight: bolder;
+}
+p:last-child{
+    font-style: italic;
+    color: rgb(71, 57, 35);
+    font-size: 30px;
+}
+/* div{
+    max-width: 60%;
+} */
+.my-table:nth-child(even) {
+    box-shadow: cadetblue;
+    background-color: brown;
+    color: white;
+}
+table:nth-child(odd) {
+    background-color: yellowgreen;
+}
+textarea:focus {
+    width: 100px;
+    background-color: lightgray;
+    transition: ease-in-out, width.35s ease-in-out;
+}
+#name-holder:empty{
+    background-color: #ff00;
+}
+#my-container::before{
+    content: 'Life is mystery';
+    font-size: medium;
+    font-family: cursive;
+    background-color: limegreen;
+}
+#my-container::after{
+    content: 'Life is mystery';
+    font-size: medium;
+    font-family: cursive;
+    background-color: limegreen;
+}
+
+/* text-decoration
+1 underline
+2 overline
+3underlin-overline
+4 none
+*/
+
+/*
+text-align
+
+1. center
+2. left (default)
+3. right
+
+
+*/
+/* 
+text-transform
+capitalize
+uppercase
+lowercase
+*/
+
+/* 
+font-family
+font-size
+font-variant
+font-style
+font-weight
+
+*/
+
+
+.greeting{
+    /* color: #CD5C5C; */
+    color:#c55;
+    /* background-color: #000; */
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height:10;
+}
+.greeting1{
+    color:rgb(0, 255, 0);
+    background-color:rgba(100, 40, 30, 0.5)
+}
+.greeting2{
+    color:hsl(200, 100%, 30%);
+    background-color: hsla(200, 50%, 30%, 0.2);
+}
+#image-container{
+    width: 20%;
+    height: 200px;
+    border: 5px solid;
+    background-size: contain; 
+    background-position:10% 70%; 
+    background-image: url(../image/20230209_135355_115305.jpg);
+}
+/* 
+background-size
+contain, cover, center
+ */
+    /* 
+    background position: center:
+background-position-x
+background-position-y
+*/
+.box-model{
+    width: clamp(200px 50% 400px);
+    border: 1px solid red;
+
+    word-break: break-all   ;
+    /* padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 20px; */
+
+    /* padding: 10px 30px 20px 10px; */
+    padding: 20px 20px;
+    margin-left:10px ;
+    margin-top: 10px;
+
+}
+
+
+
+
