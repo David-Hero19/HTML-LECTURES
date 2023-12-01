@@ -610,6 +610,7 @@ p{
 .price-area{
     margin: auto;
     padding-top: 100px;
+    box-sizing: border-box;
 }
 /* .price-container{
     /* background-color: ; */
